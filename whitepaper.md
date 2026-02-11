@@ -42,7 +42,162 @@ These variables, however, **do not necessarily reflect** operational resilience,
 
 ---
 
-## 2. Research Problem
+## 2. State of the Art — Evaluation Models in Home Automation and Smart Homes
+
+### 2.1 Overview
+
+The home automation and smart residential sector has experienced sustained growth over the past decade, driven by the convergence of IoT, IP connectivity, cloud services, and low-cost devices.
+
+However, technological development has been primarily accompanied by:
+
+- Communication standards.
+- Automation platforms.
+- Interoperability protocols.
+- Technical integration frameworks.
+
+**No structural commercial evaluation model** has been observed, either in academic literature or in the industrial market, that allows for the classification of domotics proposals from a perspective of risk, dependency, and systemic sustainability.
+
+---
+
+### 2.2 Technical Standards and Protocols
+
+The industrial state of the art is dominated by technical standards such as:
+
+- Zigbee
+- Z-Wave
+- Thread
+- Matter
+- KNX
+- BACnet
+
+These frameworks define:
+
+- How devices communicate.
+- How minimum levels of interoperability are ensured.
+- How heterogeneous systems are integrated.
+
+**However, these standards:**
+
+- Do not evaluate the integrator's commercial model.
+- Do not measure operational dependency.
+- Do not classify structural sustainability.
+- Do not differentiate between open architecture and captive ecosystems.
+
+**Their focus is technical, not structural or strategic.**
+
+---
+
+### 2.3 Open Source Platforms and Ecosystems
+
+Platforms such as:
+
+- Home Assistant
+- openHAB
+- Domoticz
+
+have contributed to the democratization of home control and integration.
+
+These tools:
+
+- Enable expanded interoperability.
+- Reduce dependency on closed brands.
+- Foster active technical communities.
+
+**However, they do not constitute an evaluation framework.**  
+They are technological infrastructures, not diagnostic models.
+
+---
+
+### 2.4 Academic Evaluation Approaches
+
+Scientific literature contains research evaluating:
+
+- IoT interoperability.
+- Energy performance in smart homes.
+- User interface usability.
+- Middleware architectures.
+- Multi-criteria systems for technology selection.
+
+Some works utilize decision methodologies such as:
+
+- SAW (Simple Additive Weighting)
+- AHP (Analytic Hierarchy Process)
+- Multi-criteria optimization models
+
+These approaches are valuable for comparing specific technologies, but:
+
+- They are not oriented toward the real market of integrators.
+- They do not analyze commercial obsolescence risk.
+- They do not consider geographic or regional dependency.
+- They do not classify complete proposals as structural systems.
+
+---
+
+### 2.5 Identified Gap
+
+The analysis of the state of the art reveals a **clear gap**:
+
+**Extensive development exists in:**
+
+- Protocols
+- Technical architectures
+- Middleware
+- Platforms
+
+**But no structural model exists that:**
+
+- Evaluates complete domotics proposals.
+- Classifies commercial architectural profiles.
+- Measures provider dependency.
+- Analyzes sustainability in regional contexts (e.g., LATAM).
+- Enables objective comparison based on observable evidence.
+
+Current market comparison is primarily conducted by:
+
+- Price
+- Brand
+- Functional promise
+- Marketing
+
+**Not by structural architecture or systemic risk.**
+
+---
+
+### 2.6 DSEM Positioning
+
+**DSEM (Domotics Structural Evaluation Model)** positions itself as:
+
+>A typological and diagnostic framework oriented toward the structural evaluation of domotics proposals, independent of brand, technology, or scale.
+
+**Its differential contribution lies in:**
+
+- Multidimensional evaluation (infrastructure, dependency, sustainability).
+- Non-hierarchical typological classification.
+- Real commercial applicability.
+- Consideration of regional context.
+- Based on observable evidence, not provider declarations.
+
+**The model does not compete with existing technical standards.**  
+It operates at a higher layer: **the structural-strategic layer of the system.**
+
+---
+
+### 2.7 State of the Art Conclusion
+
+Comparative analysis indicates that:
+
+- **Existing standards** regulate communication.
+- **Existing platforms** facilitate integration.
+- **Academic literature** studies performance and architecture.
+- **The market** commercializes closed or hybrid solutions.
+
+**But there is no public, open, market-applicable structural model that classifies complete proposals according to risk, dependency, and sustainability.**
+
+**DSEM is proposed to fill this gap.**
+
+---
+
+## 3. Research Problem
 
 A review of the state of the art reveals a **lack of structured, public, and applicable frameworks** that simultaneously enable:
 
@@ -59,7 +214,7 @@ The absence of such frameworks leads to suboptimal decisions and, in many cases,
 
 ---
 
-## 3. Model Objectives
+## 4. Model Objectives
 
 DSEM aims to respond to the identified problems. Its objectives are:
 
@@ -75,11 +230,11 @@ The model does not seek to establish a universal hierarchy of "better domotics",
 
 ---
 
-## 4. Methodology
+## 5. Methodology
 
 DSEM defines **eight structural dimensions of analysis**. Each dimension is evaluated on an **ordinal scale from 1 to 5**, based exclusively on **observable evidence** (technical documentation, declared architecture, public specifications, verifiable responses in tender meetings).
 
-### 4.1 Methodological Principles
+### 5.1 Methodological Principles
 
 1. **Observability:** Intentions, promises, and roadmaps are not evaluated. Only facts verifiable at the time of assessment.
 2. **Ordinality:** The 1-5 scale reflects increasing degrees of structural maturity, not continuous scores.
@@ -88,7 +243,7 @@ DSEM defines **eight structural dimensions of analysis**. Each dimension is eval
 
 ---
 
-### 4.2 Model Dimensions
+### 5.2 Model Dimensions
 
 #### D1 — Technological Infrastructure
 *Type of architecture, use of open standards, declared interoperability.*
@@ -210,7 +365,7 @@ DSEM defines **eight structural dimensions of analysis**. Each dimension is eval
 
 ---
 
-## 5. Operational Structure
+## 6. Operational Structure
 
 The DSEM model is not software or a closed platform. It is a **documented methodological framework** that includes:
 
@@ -225,9 +380,9 @@ All tools are **publicly accessible, modifiable, and evolutionary**, under the t
 
 ---
 
-## 6. Discussion
+## 7. Discussion
 
-### 6.1 Conceptual Contribution
+### 7.1 Conceptual Contribution
 
 DSEM introduces a **paradigm shift** in the evaluation of home automation systems:
 
@@ -245,7 +400,7 @@ This shift enables the identification of:
 - **Architectures with low resilience** to internet outages, provider changes, or product discontinuation.
 - **Sustainable ecosystems** versus **ephemeral solutions** with undeclared planned obsolescence.
 
-### 6.2 Limitations
+### 7.2 Limitations
 
 The model has limitations that must be explicitly acknowledged:
 
@@ -260,7 +415,7 @@ These limitations do not invalidate the model, but rather define its **perimeter
 
 ---
 
-## 7. Implications for the Sector
+## 8. Implications for the Sector
 
 The adoption of a framework like DSEM could have structural effects on the home automation market:
 
@@ -278,7 +433,7 @@ DSEM can serve as the basis for an independent (non-commercial) technical seal.
 
 ---
 
-## 8. Future Work
+## 9. Future Work
 
 The model is published in version 1.0 as a **foundational document**. Planned development lines include:
 
@@ -292,7 +447,7 @@ The model is published in version 1.0 as a **foundational document**. Planned de
 
 ---
 
-## 9. Conclusion
+## 10. Conclusion
 
 DSEM constitutes a **conceptual framework for evaluating home automation solutions from a structural and architectural perspective**, shifting the focus from marketing and superficial functionality toward sustainability, user sovereignty, and the technical maturity of the ecosystem.
 
