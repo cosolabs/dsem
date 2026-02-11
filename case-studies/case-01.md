@@ -61,13 +61,13 @@
 
 ## 5. Structural Profile
 
-| Profile | D1 | D2 | D7 | D8 | Score Range | Result |
-|---------|-----|-----|-----|-----|-------------|--------|
-| 🔴 Red — Ultra light | 1-2 | 1-2 | 1-2 | 1 | 20-35 | ✅ |
-| 🟠 Orange — Heavy closed | 4-5 | 2-3 | 2-3 | 2-3 | 45-65 | ❌ |
-| 🟢 Green — Open hybrid | 3-4 | 3-4 | 3-4 | 4 | 60-75 | ❌ |
-| 🔵 Blue — Balanced architecture | 4 | 4-5 | 4-5 | 4-5 | 75-90 | ❌ |
-| ⚫ Black — Critical infrastructure | 5 | 5 | 5 | 5 | 90-100 | ❌ |
+| Profile | D1 | D2 | D7 | D8 | Score Range (/5) | Descriptor |
+|---------|-----|-----|-----|-----|------------------|------------|
+| 🔴 **Red — Ultra light** | 1-2 | 1-2 | 1-2 | 1 | **1.00 - 1.75** | Gadgets, nube obligatoria, descartables |
+| 🟠 **Orange — Heavy closed** | 4-5 | 2-3 | 2-3 | 2-3 | **2.25 - 3.25** | Profesional pero cautivo |
+| 🟢 **Green — Open hybrid** | 3-4 | 3-4 | 3-4 | 4 | **3.00 - 3.75** | Hardware commodity + local |
+| 🔵 **Blue — Balanced architecture** | 4 | 4-5 | 4-5 | 4-5 | **3.75 - 4.50** | Documentado, mantenible |
+| ⚫ **Black — Critical infrastructure** | 5 | 5 | 5 | 5 | **4.50 - 5.00** | Grado industrial/hospital |
 
 **Determined profile:** 🔴 **Red — Ultra light**  
 **Descriptor:** *"Gadgets, nube obligatoria, descartables."*
