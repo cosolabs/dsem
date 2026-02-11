@@ -79,4 +79,52 @@
 | Criterio | Peso | Oferta A (Marca X) | Oferta B (Gadgets) | Oferta C (KNX) | Oferta D (Abierto) |
 |----------|------|---------------------|---------------------|----------------|---------------------|
 | D1 | 15% | 4 | 2 | 5 | 4 |
-| D2 | 25% | 
+| D2 | 25% | 2 | 1 | 4 | 5 |
+| D3 | 10% | 4 | 2 | 4 | 4 |
+| D4 | 2% | 3 | 2 | 4 | 4 |
+| D5 | 5% | 4 | 1 | 5 | 3 |
+| D6 | 8% | 3 | 1 | 4 | 5 |
+| D7 | 15% | 2 | 1 | 3 | 5 |
+| D8 | 20% | 2 | 1 | 4 | 5 |
+| | | | | | |
+| **Puntaje ponderado** | | **42.6** | **18.2** | **67.8** | **84.5** |
+| Perfil | | Naranja | Rojo | Azul | Verde/Azul |
+| Precio | | $8.500 | $3.200 | $15.000 | $7.800 |
+| Relación calidad-precio | | 5.0 | 5.7 | 4.5 | **10.8** |
+
+**Conclusión del ejemplo:**  
+La Oferta D no es la más barata, pero es **la de mejor relación calidad-precio y menor riesgo estructural**.
+
+---
+
+## 5. SEMÁFORO DE DECISIÓN
+
+| Puntaje ponderado | Perfil | Decisión |
+|-------------------|--------|----------|
+| **75-100** | Azul / Verde | Adjudicar. Bajo riesgo, alta mantenibilidad. |
+| **50-74** | Verde / Naranja | Evaluar garantías. Posible si se ajustan puntos débiles. |
+| **25-49** | Naranja / Rojo | Rechazar. Riesgo estructural alto. |
+| **0-24** | Rojo | Descartar directamente. No es domótica profesional. |
+
+---
+
+## 6. NOTAS PARA EL EVALUADOR
+
+- **No asigne puntajes por simpatía.** Use solo evidencia observable.
+- **Si el proveedor no responde una dimensión, asigne 1 punto.**
+- **El precio nunca debe anular el riesgo.** Un sistema barato que queda huérfano es carísimo.
+- **Esta plantilla puede adaptarse por región.** En Europa, D8 puede pesar menos; en Latinoamérica, D2 y D7 son críticos.
+
+---
+
+## 7. REFERENCIAS
+
+Esta plantilla es parte del **DSEM (Domotics Structural Evaluation Model)**, un estándar abierto para evaluar propuestas de domótica por evidencia observable, no por marketing.
+
+- Repositorio oficial: [github.com/cosolabs/dsem](https://github.com/cosolabs/dsem)
+- Licencia: CC BY-SA 4.0
+- Autor: Matias Cacciagrano, 2025
+
+---
+
+**Versión 1.0 — Marzo 2025**
