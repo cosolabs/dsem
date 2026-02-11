@@ -53,7 +53,7 @@
 | D6 (Transparency) | 8% | 1 | 0.08 |
 | D5 (Complexity) | 5% | 1 | 0.05 |
 | D4 (Value model) | 2% | 1 | 0.02 |
-| **TOTAL** | **100%** | | **1.10 / 100** |
+| **TOTAL** | **100%** | | **1.10 / 5** |
 
 🔗 [DSEM Section 3 — Context Weighting](https://github.com/cosolabs/dsem?tab=readme-ov-file#3-context-weighting)
 
