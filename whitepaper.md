@@ -522,7 +522,7 @@ Inspired by:
 
 **Version 1.0 — March 2025**  
 [github.com/cosolabs/dsem](https://github.com/cosolabs/dsem)  
-**DOI:** *[Pending assignment]*
+**DOI:** *10.5281/zenodo.18613593.*
 
 ---
 
