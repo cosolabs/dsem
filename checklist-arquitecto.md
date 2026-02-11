@@ -1,4 +1,5 @@
-# 📐 Checklist del Arquitecto — DSEM v1.0
+# Checklist del Arquitecto — DSEM v1.0
+
 ## Domotics Structural Evaluation Model
 
 **Autor:** Matias Cacciagrano — 2025  
@@ -8,7 +9,7 @@
 
 ---
 
-## 🎯 CÓMO USAR ESTE DOCUMENTO
+## CÓMO USAR ESTE DOCUMENTO
 
 1. **Copie y pegue** el bloque de texto de la Sección 2 directamente en su pliego.
 2. **Exija** a cada proveedor que complete la tabla de autoevaluación (Sección 3).
@@ -23,11 +24,11 @@ Antes de escribir el pliego, pregunte al proveedor candidato:
 
 | # | Pregunta | Lo que busca |
 |---|---------|-------------|
-| 1 | *"¿El sistema funciona 100% sin internet?"* | Independencia de nube |
-| 2 | *"¿Dónde compro un repuesto en 5 años?"* | Sostenibilidad / Commodity |
-| 3 | *"¿Otro técnico puede mantenerlo?"* | No vendor lock-in |
-| 4 | *"¿Me entregan las credenciales y planos?"* | Soberanía del cliente |
-| 5 | *"¿Qué dispositivos de otras marcas puedo conectar?"* | Estándar abierto real |
+| 1 | "¿El sistema funciona 100% sin internet?" | Independencia de nube |
+| 2 | "¿Dónde compro un repuesto en 5 años?" | Sostenibilidad / Commodity |
+| 3 | "¿Otro técnico puede mantenerlo?" | No vendor lock-in |
+| 4 | "¿Me entregan las credenciales y planos?" | Soberanía del cliente |
+| 5 | "¿Qué dispositivos de otras marcas puedo conectar?" | Estándar abierto real |
 
 **Si responden "No" o "Depende" más de dos veces, descarte la oferta.**
 
@@ -97,9 +98,9 @@ Fecha: ......................................................................
 
 | Resultado | Perfil DSEM | Decisión |
 |-----------|-------------|----------|
-| 🟢 **4-8 respuestas "Sí" en preguntas clave** | Verde / Azul | Adjudicar. Bajo riesgo. |
-| 🟡 **2-4 respuestas "Sí"** | Naranja | Analizar en profundidad. Pedir garantías. |
-| 🔴 **0-2 respuestas "Sí"** | Rojo | Rechazar. Riesgo estructural alto. |
+| **4-8 respuestas "Sí" en preguntas clave** | Verde / Azul | Adjudicar. Bajo riesgo. |
+| **2-4 respuestas "Sí"** | Naranja | Analizar en profundidad. Pedir garantías. |
+| **0-2 respuestas "Sí"** | Rojo | Rechazar. Riesgo estructural alto. |
 
 ---
 
