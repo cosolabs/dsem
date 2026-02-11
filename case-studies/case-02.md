@@ -11,14 +11,14 @@
 
 | Dimensión | Puntaje | Evidencia observable | Criterio DSEM |
 |:---------|:------:|:---------------------|:--------------|
-| **D1 — Infraestructura** | 1/5 | Protocolo inalámbrico **propietario ("WiBus")**. No declara estándares abiertos (Zigbee, KNX, MQTT, DALI). No menciona hub físico ni arquitectura cableada. | Nivel 1: Dispositivos solo WiFi / inalámbrico propietario, sin hub abierto. |
-| **D2 — Dependencia operativa** | 2/5 | **Funciona offline** en red local. **No menciona documentación técnica** para que otro integrador lo mantenga. Sistema autónomo pero cautivo de su software/app. | Nivel 2: Funciona offline pero no puede ser reprogramado por terceros. Solo el proveedor puede mantenerlo. |
-| **D3 — Profundidad funcional** | 3/5 | Controla iluminación, climatización, seguridad, cortinados, audio multiroom. **No menciona lógica condicional avanzada** (ej. reglas "si-entonces" cruzadas) ni gestión energética con histórico. | Nivel 3: Luces + HVAC + seguridad. Sin coordinación compleja multi-sistema documentada. |
+| **D1 — Infraestructura** | 1/5 | Protocolo inalámbrico propietario ("WiBus"). No declara estándares abiertos (Zigbee, KNX, MQTT, DALI). No menciona hub físico ni arquitectura cableada. | Nivel 1: Dispositivos solo WiFi / inalámbrico propietario, sin hub abierto. |
+| **D2 — Dependencia operativa** | 2/5 | Funciona offline en red local. No menciona documentación técnica para que otro integrador lo mantenga. Sistema autónomo pero cautivo de su software/app. | Nivel 2: Funciona offline pero no puede ser reprogramado por terceros. Solo el proveedor puede mantenerlo. |
+| **D3 — Profundidad funcional** | 3/5 | Controla iluminación, climatización, seguridad, cortinados, audio multiroom. No menciona lógica condicional avanzada (ej. reglas "si-entonces" cruzadas) ni gestión energética con histórico. | Nivel 3: Luces + HVAC + seguridad. Sin coordinación compleja multi-sistema documentada. |
 | **D4 — Modelo de valor** | 2/5 | "Soluciones accesibles adaptadas a tu presupuesto". Costo "varía según el proyecto". No se evidencia ingeniería a medida; esquema de dispositivo + instalación. | Nivel 2: Venta de dispositivo + instalación. |
 | **D5 — Complejidad estructural** | 2/5 | Instalación en viviendas existentes "sin necesidad de cableado adicional". No requiere planificación arquitectónica ni tablero dedicado. | Nivel 2: Instalación eléctrica básica. "Sin obras". |
-| **D6 — Transparencia tecnológica** | 1/5 | **Marketing puro**: "experiencia innovadora", "ambientes personalizados", "entorno inteligente". No menciona protocolos, frecuencias, marcas de hardware, topología ni arquitectura de red. | Nivel 1: Solo marketing de estilos de vida. |
-| **D7 — Sustentabilidad del ecosistema** | 1/5 | **No informa** sobre repuestos a futuro. Protocolo propietario genera dependencia total de marca. Hardware discontinuable sin soporte garantizado. | Nivel 1-2: Dependencia de una sola marca. Riesgo alto de discontinuación en <2 años. |
-| **D8 — Privacidad y soberanía de datos** | 1/5 | **No informa** dónde se almacenan los datos. Control remoto requiere nube obligatoria. No ofrece opción local pura sin paso por servidores externos. | Nivel 1: Nube obligatoria, servidores no declarados, telemetría oculta. |
+| **D6 — Transparencia tecnológica** | 1/5 | Marketing puro: "experiencia innovadora", "ambientes personalizados", "entorno inteligente". No menciona protocolos, frecuencias, marcas de hardware, topología ni arquitectura de red. | Nivel 1: Solo marketing de estilos de vida. |
+| **D7 — Sustentabilidad del ecosistema** | 1/5 | No informa sobre repuestos a futuro. Protocolo propietario genera dependencia total de marca. Hardware discontinuable sin soporte garantizado. | Nivel 1-2: Dependencia de una sola marca. Riesgo alto de discontinuación en <2 años. |
+| **D8 — Privacidad y soberanía de datos** | 1/5 | No informa dónde se almacenan los datos. Control remoto requiere nube obligatoria. No ofrece opción local pura sin paso por servidores externos. | Nivel 1: Nube obligatoria, servidores no declarados, telemetría oculta. |
 
 ---
 
@@ -53,10 +53,10 @@
 
 ## Conclusión
 
-**Este proveedor vende un ecosistema cerrado de gadgets, no infraestructura domótica abierta y sustentable.**
+Este proveedor vende un ecosistema cerrado de gadgets, no infraestructura domótica abierta y sustentable.
 
-**✅ Punto fuerte aislado:**
-- El sistema **funciona sin internet** en red local (D2+), mitigando parcialmente el riesgo de dependencia de nube para operación cotidiana.
+**✅ Puntos fuertes:**
+- El sistema funciona sin internet en red local (D2+), mitigando parcialmente el riesgo de dependencia de nube para operación cotidiana.
 - Sin costo de mantenimiento mensual declarado.
 
 **❌ Riesgos estructurales críticos:**
@@ -80,7 +80,7 @@
 - No hay garantía de repuestos a mediano plazo.
 - No hay transparencia: el sitio web muestra ambientes felices, no planos, protocolos ni arquitectura.
 
-**El riesgo estructural es máximo. El perfil es Ultra Light con agravante de cautividad posventa.**
+**El riesgo estructural es máximo. El perfil es Ultra light con agravante de cautividad posventa.**
 
 ---
 
