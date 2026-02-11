@@ -1,13 +1,13 @@
 # Análisis de Proveedor — DSEM v1.0
 
 **Evaluación estructural según Domotics Structural Evaluation Model**  
-🔗 Metodología: [github.com/cosolabs/dsem](https://github.com/cosolabs/dsem)  
-📅 Fecha: Febrero 2026 | Fuente: Sitio web del proveedor (publicado 2020)  
-🔒 Caso anonimizado para análisis público
+Metodología: [github.com/cosolabs/dsem](https://github.com/cosolabs/dsem)  
+Fecha: Febrero 2026 | Fuente: Sitio web del proveedor (publicado 2020)  
+Caso anonimizado para análisis público
 
 ---
 
-## 📐 Evaluación por dimensión
+## Evaluación por dimensión
 
 | Dimensión | Puntaje | Evidencia observable | Criterio |
 |----------|--------|----------------------|----------|
@@ -22,7 +22,7 @@
 
 ---
 
-## 📊 Ponderación para contexto Argentina/Latam
+## Ponderación para contexto Argentina/Latam
 
 | Dimensión | Peso | Puntaje | Ponderado |
 |----------|------|---------|-----------|
@@ -40,7 +40,7 @@
 
 ---
 
-## 🧩 Perfil estructural
+## Perfil estructural
 
 # 🔴 ROJO — Ultra light
 
@@ -55,7 +55,7 @@
 
 ---
 
-## ⚠️ Conclusión
+## Conclusión
 
 **Este proveedor vende gadgets, no infraestructura.**  
 - No hay estándares abiertos.  
