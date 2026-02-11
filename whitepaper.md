@@ -478,7 +478,45 @@ Inspired by:
 
 ## References
 
-*[Pending incorporation as the framework evolves]*
+[1] KNX Association. *KNX Specifications – System Specifications*, 2024. URL: https://www.knx.org
+
+[2] Connectivity Standards Alliance. *Matter Specification Version 1.3*, 2024. URL: https://csa-iot.org/all-solutions/matter/
+
+[3] Zigbee Alliance. *Zigbee PRO Specification*, 2023. URL: https://csa-iot.org/all-solutions/zigbee/
+
+[4] Home Assistant. *Open Source Home Automation Platform*, 2025. URL: https://www.home-assistant.io
+
+[5] ESPHome. *ESPHome — Device Configuration for Home Automation*, 2025. URL: https://esphome.io
+
+[6] Tasmota. *Tasmota — Open Source Firmware for ESP Devices*, 2025. URL: https://tasmota.github.io
+
+[7] Saaty, T. L. *The Analytic Hierarchy Process: Planning, Priority Setting, Resource Allocation*. McGraw-Hill, 1980.
+
+[8] Hwang, C. L. & Yoon, K. *Multiple Attribute Decision Making: Methods and Applications*. Springer-Verlag, 1981.
+
+[9] Zanella, A. et al. *"Internet of Things for Smart Cities"*. IEEE Internet of Things Journal, Vol. 1, No. 1, pp. 22–32, 2014.
+
+[10] Al-Fuqaha, A. et al. *"Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications"*. IEEE Communications Surveys & Tutorials, Vol. 17, No. 4, pp. 2347–2376, 2015.
+
+[11] Guinard, D. & Trifa, V. *Building the Web of Things*. Manning Publications, 2016.
+
+[12] IRAM. *IRAM AEA 90364 – Reglamentación para instalaciones eléctricas en inmuebles*, 2021.
+
+[13] IEC. *IEC 60364 – Low-voltage electrical installations*, 2020.
+
+[14] Creative Commons. *CC BY-SA 4.0 License Legal Code*, 2025. URL: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+[15] OpenHAB Foundation. *openHAB – Empowering the Smart Home*, 2025. URL: https://www.openhab.org
+
+[16] Domoticz. *Domoticz – Open Source Home Automation System*, 2025. URL: https://www.domoticz.com
+
+[17] CENELEC. *EN 50090 – Home and Building Electronic Systems (HBES)*, 2022.
+
+[18] ISO/IEC. *ISO/IEC 14543-3 – Information technology – Home electronic system (HES) architecture*, 2020.
+
+[19] BSI. *BSI PAS 212 – Automated/proactive commissioning of IoT devices*, 2021.
+
+[20] Mattern, F. & Floerkemeier, C. *"From the Internet of Computers to the Internet of Things"*. In: *Informatik-Spektrum*, Vol. 33, No. 2, pp. 107–121, 2010.
 
 ---
 
