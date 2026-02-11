@@ -1,4 +1,5 @@
-# 📄 Formulario de Autoevaluación para Proveedores — DSEM v1.0
+# Formulario de Autoevaluación para Proveedores — DSEM v1.0
+
 ## Domotics Structural Evaluation Model
 
 **Autor:** Matias Cacciagrano — 2025  
@@ -8,7 +9,7 @@
 
 ---
 
-## 🎯 INSTRUCCIONES
+## INSTRUCCIONES
 
 1. **Complete este formulario con honestidad y precisión.**
 2. **Adjúntelo a su propuesta comercial y técnica.**
@@ -75,7 +76,7 @@ Debe poder **acreditar cada nivel con documentación o evidencia concreta.**
 
 ---
 
-### D3 — Profundidad funcional
+### D3 — Funcionalidad
 *¿Qué sistemas integran realmente?*
 
 | Nivel | Descripción | Seleccione |
