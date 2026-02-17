@@ -1,72 +1,18 @@
-# Comparación de Casos — DSEM v1.0
+# Matriz de Comparación de Casos de Estudio — DSEM v1.0
 
-**Tabla comparativa estructural**  
-🔗 [github.com/cosolabs/dsem](https://github.com/cosolabs/dsem) — Febrero 2026  
-**Casos anonimizados**
+Esta tabla resume los hallazgos estructurales clave de los casos de estudio publicados hasta la fecha. Permite una comparación rápida de perfiles de riesgo, fortalezas y debilidades de cada proveedor analizado.
 
----
+| Caso | Perfil (DSEM) | Puntaje (/5) | Fortaleza Estructural Principal | Debilidad Crítica | Resumen para el Cliente |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **case-01.md** | 🔴 Red — Ultra light | 1.10 | **Ninguna.** Modelo de gadgets WiFi. | Dependencia total de nube. Sistema muere sin internet o si el proveedor desaparece. | **Riesgo máximo.** No es una instalación, es una compra de gadgets descartables. El cliente no es dueño de su sistema. |
+| **case-02.md** | 🔴 Red — Ultra light | 1.52 | **Operación offline local.** Mitiga riesgo de caída de internet para control básico. | Protocolo inalámbrico propietario. Ecosistema 100% cautivo. Sin repuestos garantizados. | **Riesgo máximo.** Similar al caso-01, pero con la ventaja parcial de funcionar sin internet. Sigue siendo un ecosistema cerrado y descartable. |
+| **case-03.md** | 🔴 Red — Ultra light | 1.17 | **Ninguna.** Marketing puro, cero transparencia técnica. | **Sin operación offline inteligente.** Sin internet, la domótica no funciona (solo operación manual). Opacidad total. | **Riesgo máximo.** Es el perfil más frágil de la muestra. El cliente compra una promesa, no una solución técnica. |
+| **case-04.md** | 🔵 Blue — Balanced architecture | 3.27 | **Infraestructura profesional.** Basada en marcas premium (Crestron, Lutron, Control4). Sustentable y mantenible. | **Opacidad en privacidad de datos.** No informa sobre uso de nube ni destino de los datos del cliente. | **Riesgo moderado.** El cliente obtiene un sistema sólido y con futuro, pero desconoce completamente qué pasa con sus datos. |
+| **case-05.md** | 🔵 Blue — Balanced architecture | 4.07 | **Estándar abierto (KNX).** Mantenibilidad garantizada por terceros. Infraestructura cableada, robusta y sustentable. | **Opacidad en privacidad de datos.** No explicita si la implementación es 100% local o usa nube, aunque KNX lo permite. | **Riesgo bajo.** Es el perfil más robusto. La única falta es no comunicar la soberanía de datos que técnicamente puede ofrecer. |
+| **case-06.md** | 🟢 Green — Open hybrid | 3.09 | **Filosofía de documentación.** Entrega planos al cliente, rompiendo el vendor lock-in. Modelo de ingeniería. | **Estándares no declarados y opacidad en datos.** No especifica protocolos ni política de privacidad. | **Riesgo moderado-bajo.** Ideal para quien teme quedar atado a un integrador. Las dudas técnicas y de datos se deben resolver en la entrevista personal. |
 
-## 1. Scores dimensionales
+## Observaciones Generales
 
-| Dimensión | Caso 01 | Caso 02 | Caso 03 | Caso 04 |
-|-----------|---------|---------|---------|---------|
-| **D1 — Infraestructura** | 1/5 | 1/5 | 1/5 | 4/5 |
-| **D2 — Dependencia operativa** | 1/5 | 2/5 | 1/5 | 3/5 |
-| **D3 — Profundidad funcional** | 2/5 | 3/5 | 2/5 | 4/5 |
-| **D4 — Modelo de valor** | 1/5 | 2/5 | 2/5 | 4/5 |
-| **D5 — Complejidad estructural** | 1/5 | 2/5 | 2/5 | 4/5 |
-| **D6 — Transparencia tecnológica** | 1/5 | 1/5 | 1/5 | 3/5 |
-| **D7 — Sustentabilidad del ecosistema** | 1/5 | 1/5 | 1/5 | 4/5 |
-| **D8 — Privacidad y soberanía de datos** | 1/5 | 1/5 | 1/5 | 2/5 |
-
----
-
-## 2. Puntaje ponderado (Latam)
-
-| Caso | D2 25% | D8 20% | D1 15% | D7 15% | D3 10% | D6 8% | D5 5% | D4 2% | TOTAL /5 |
-|------|--------|--------|--------|--------|--------|-------|-------|-------|----------|
-| 01 | 0.25 | 0.20 | 0.15 | 0.15 | 0.20 | 0.08 | 0.05 | 0.02 | **1.10** |
-| 02 | 0.50 | 0.20 | 0.15 | 0.15 | 0.30 | 0.08 | 0.10 | 0.04 | **1.52** |
-| 03 | 0.25 | 0.20 | 0.15 | 0.15 | 0.20 | 0.08 | 0.10 | 0.04 | **1.17** |
-| 04 | 0.75 | 0.40 | 0.60 | 0.60 | 0.40 | 0.24 | 0.20 | 0.08 | **3.27** |
-
----
-
-## 3. Perfil estructural
-
-| Caso | Perfil | Rango | Descriptor |
-|------|--------|-------|------------|
-| 01 | 🔴 Ultra light | 1.00-1.75 | Gadgets, nube obligatoria, descartables |
-| 02 | 🔴 Ultra light | 1.00-1.75 | Gadgets, nube obligatoria, descartables |
-| 03 | 🔴 Ultra light | 1.00-1.75 | Gadgets, nube obligatoria, descartables |
-| 04 | 🔵 Balanced | 3.75-4.50 | Documentado, mantenible, estándares abiertos |
-
----
-
-## 4. Declaraciones del proveedor (evidencia textual)
-
-| Ítem | Caso 01 | Caso 02 | Caso 03 | Caso 04 |
-|------|---------|---------|---------|---------|
-| **Funcionamiento sin internet** | No menciona | "sigue operando sin problemas" | "controlar manualmente de manera convencional" | No menciona |
-| **Protocolo declarado** | "WiFi" | "WiBus" (propietario) | No declara | Control4, Lutron, Crestron |
-| **Costo mensual** | No menciona | "no tiene costos de mantenimiento" | "no tiene abono mensual" | No menciona |
-| **Instalación en casa terminada** | "sin necesidad de cableado adicional" | "se adapta fácilmente" | "sí, por supuesto" | No especifica |
-| **Documentación técnica pública** | No menciona | No menciona | No menciona | No menciona |
-| **Política de privacidad visible** | No | No | No | No |
-
----
-
-## 5. Métricas de transparencia
-
-| Métrica | Caso 01 | Caso 02 | Caso 03 | Caso 04 |
-|---------|---------|---------|---------|---------|
-| **Declara marcas que integra** | ❌ | ❌ | ❌ | ✅ |
-| **Declara protocolos** | ✅ (WiFi) | ✅ (WiBus) | ❌ | ✅ (vía marcas) |
-| **Publica documentación técnica** | ❌ | ❌ | ❌ | ❌ |
-| **Publica política de privacidad** | ❌ | ❌ | ❌ | ❌ |
-| **Menciona ubicación de servidores** | ❌ | ❌ | ❌ | ❌ |
-
----
-
-🔗 [github.com/cosolabs/dsem](https://github.com/cosolabs/dsem)  
-**Licencia:** CC BY-SA 4.0
+*   **El patrón de opacidad en datos (D8) es transversal:** Todos los casos, incluso los más robustos (case-04, case-05, case-06), fallan en comunicar públicamente el destino de los datos del cliente. Es el punto ciego de la industria en la muestra analizada.
+*   **KNX y documentación marcan la diferencia:** Los casos con estándares abiertos (case-05) o metodologías de documentación (case-06) son los únicos que ofrecen una estrategia clara para la mantenibilidad futura.
+*   **El perfil 🔴 Red es un "no comprar" estructural:** Los tres primeros casos representan un riesgo máximo para el cliente, ya que crean una dependencia absoluta de un proveedor con una barrera de salida altísima o directamente nula.
