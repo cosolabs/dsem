@@ -27,7 +27,6 @@ Esta distinción es clave: **lo que no se declara públicamente ya es un dato**,
 | [**case-03.md**](case-03.md) | 🔴 Red — Ultra light | 1.17/5 | Feb 2026 | App propietaria, nula operación offline inteligente, opacidad tecnológica total. |
 | [**case-04.md**](case-04.md) | 🔵 Blue — Balanced architecture | 3.27/5 | Feb 2026 | Integrador de marcas premium (Crestron, Lutron), sólido pero opaco en datos. |
 | [**case-05.md**](case-05.md) | 🔵 Blue — Balanced architecture | 4.07/5 | Feb 2026 | Integrador KNX con estándar abierto, infraestructura cableada, opaco en datos. |
-| [**case-06.md**](case-06.md) | 🟢 Green — Open hybrid | 3.09/5 | Feb 2026 | Especialista en documentación técnica, rompe el lock-in, pero no declara estándares. |
 
 ## Cómo Contribuir
 
