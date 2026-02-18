@@ -277,6 +277,7 @@ DSEM allows weight adjustment based on regional context. The following weighting
 **Maximum weighted score: 100 points.**
 
 The scoring protocol in Section 5.3 explains how to apply these weights in practice. For other regions, these weights should be adapted to local market conditions.
+
 ---
 
 ## 6. Operational Structure
