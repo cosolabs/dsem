@@ -119,13 +119,14 @@ DSEM defines **eight structural dimensions of analysis**. Each dimension is eval
 
 ### 5.2 Model Dimensions
 
-The eight dimensions emerged from:
-- Analysis of 12 real-world project post-mortems (2019-2024)
-- Review of 30+ integrator proposals in the Argentine market
-- Open-ended interviews with 5 architects and 8 homeowners
-- Mapping against ISO 27001 (privacy) and KNX/open standards (infrastructure)
+The eight dimensions emerged from a multi-source construction process:
 
-This ensures the dimensions are empirically grounded, not theoretically imposed.
+- **Literature review** of academic and technical evaluation frameworks (see Section 2)
+- **Market analysis** of 30+ commercial proposals from the Argentine home automation sector
+- **Semi-structured interviews** with 5 architects and 8 homeowners about post-installation problems
+- **Mapping** against existing standards: ISO 27001 (privacy), KNX and open protocols (infrastructure)
+
+This process ensures the dimensions are empirically grounded, not theoretically imposed.
 
 #### D1 — Technological Infrastructure
 *Type of architecture, use of open standards, declared interoperability.*
@@ -297,13 +298,16 @@ All tools are publicly accessible under CC BY-SA 4.0.
 ## 8. Empirical Validation
 
 ### 8.1 Context
+
 **Public building, 6000 m², 2021-2024.** Maintenance budget: 0.
 
-Faced with zero budget, the in-house R&D department built a monitoring and control system for critical infrastructure using:
+Faced with zero budget for infrastructure maintenance, the in-house R&D department had to build, from scratch, a monitoring and control system for critical infrastructure using only:
 - Discontinued components from old programs
 - Recycled hardware
 - Open source software
 - In-house developed logic
+
+**This project served as the first real-world test of the DSEM framework**, allowing retrospective evaluation of 12 subsystems and prospective validation of the model's predictive capacity.
 
 ### 8.2 The six layers (chronological order)
 
