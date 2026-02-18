@@ -258,6 +258,25 @@ To ensure consistent application across different evaluators:
 | **Simple or weighted average?** | Both. Simple average per dimension for internal consistency, then weighted average according to regional context (see Section 3). |
 | **Cross-validation?** | Recommended for high-value tenders (> USD 10,000). Two independent evaluators should score separately and average results. Discrepancies >1 point require calibration. |
 
+
+### 5.4 Context Weighting
+
+DSEM allows weight adjustment based on regional context. The following weighting is proposed for Argentina and Latin America, where structural risks such as provider dependency and data sovereignty are particularly critical:
+
+| Dimension | Weight | Reason |
+|-----------|--------|--------|
+| D2 — Operational dependency | 25% | Country risk = technical risk |
+| D8 — Privacy and data sovereignty | 20% | Data sovereignty is critical |
+| D1 — Technological infrastructure | 15% | Technical foundation |
+| D7 — Ecosystem sustainability | 15% | Spare parts + community |
+| D3 — Functional depth | 10% | What the client thinks matters |
+| D6 — Technological transparency | 8% | Symptom, not cause |
+| D5 — Structural complexity | 5% | Correlated with D1 |
+| D4 — Value model | 2% | Describes business, not risk |
+
+**Maximum weighted score: 100 points.**
+
+The scoring protocol in Section 5.3 explains how to apply these weights in practice. For other regions, these weights should be adapted to local market conditions.
 ---
 
 ## 6. Operational Structure
@@ -404,6 +423,8 @@ This model was built from direct experience in the Argentine market, where impor
 Inspired by open standards communities (Home Assistant, ESPHome, Tasmota, OpenHAB), architects tired of proprietary black boxes, and clients who wanted their home to work.
 
 Special thanks to the in-house R&D team that, between 2021 and 2024, proved that with open tools and engineering criteria, critical infrastructure can be maintained even with zero budget.
+
+Thanks also to **Manuel García** for his critical peer feedback, which helped refine and strengthen the conceptual framework of DSEM.
 
 ---
 
