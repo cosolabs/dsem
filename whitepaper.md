@@ -8,8 +8,8 @@
 **Year:** 2025  
 **License:** CC BY-SA 4.0  
 **Repository:** [github.com/cosolabs/dsem](https://github.com/cosolabs/dsem)  
-**DOI:** Pending  
-**Status:** Version 1.0 — Foundational Document
+**DOI:** 10.5281/zenodo.18613771  
+**Status:** Version 1.1 — Conceptual Framework (Refined Version)
 
 ---
 
@@ -19,238 +19,120 @@ The home automation market has grown rapidly over the past decade, driven by the
 
 This paper introduces the **Domotics Structural Evaluation Model (DSEM)** , an open methodological framework designed to assess home automation solutions from an architectural and structural perspective. The model proposes **eight analytical dimensions**, each with observable and scoreable criteria on an ordinal scale (1-5), enabling objective comparisons between heterogeneous proposals. DSEM is neither software nor a commercial ranking: it is a **conceptual framework** aimed at professionalizing technical evaluation processes and reducing information asymmetry in the sector.
 
+This document presents Version 1.1 of DSEM, a conceptual framework refined through empirical validation and peer feedback.
+
 **Keywords:** Home Automation, Architectural Evaluation, Vendor Lock-in, Open Standards, Technological Sustainability, Data Sovereignty.
 
 ---
 
 ## 1. Introduction
 
-Contemporary home automation is fragmented across multiple technological approaches that coexist — and compete — in the market: cloud-first solutions dependent on external servers, hybrid edge-cloud models, proprietary closed systems, open-standard implementations, and assistant-first integrations (Alexa, Google Home), among others.
+Contemporary home automation is fragmented across multiple technological approaches that coexist — and compete — in the market: cloud-first solutions dependent on external servers, hybrid edge-cloud models, proprietary closed systems, open-standard implementations, and assistant-first integrations.
 
-This fragmentation poses a **structural problem** for architects, real estate developers, facility managers, and end users: **there is no common language to compare technically heterogeneous proposals.**
+This fragmentation poses a structural problem for architects, developers, and end users: **there is no common language to compare technically heterogeneous proposals.** Decision-making is often based on easily available but poorly predictive variables: brand popularity, initial price, visual appeal, or non-verifiable functional promises.
 
-In practice, decision-making is often based on easily available but poorly predictive variables of architectural quality:
-
-- Brand popularity.
-- Initial purchase price.
-- Visual appeal of the user interface.
-- Non-verifiable functional promises ("artificial intelligence", "ecosystem", "future-proof").
-
-These variables, however, **do not necessarily reflect** operational resilience, dependency on the original provider, long-term spare parts availability, effective user control over their own data, or the ability to be maintained by third parties.
-
-**DSEM emerges as a response to this methodological gap.**
+These variables do not necessarily reflect operational resilience, dependency on the original provider, long-term spare parts availability, or effective user control over data. **DSEM emerges as a response to this methodological gap.**
 
 ---
 
-## 2. State of the Art — Evaluation Models in Home Automation and Smart Homes
+## 2. State of the Art — Evaluation Models in Home Automation
 
 ### 2.1 Overview
 
-The home automation and smart residential sector has experienced sustained growth over the past decade, driven by the convergence of IoT, IP connectivity, cloud services, and low-cost devices.
-
-However, technological development has been primarily accompanied by:
-
-- Communication standards.
-- Automation platforms.
-- Interoperability protocols.
-- Technical integration frameworks.
-
-**No structural commercial evaluation model** has been observed, either in academic literature or in the industrial market, that allows for the classification of domotics proposals from a perspective of risk, dependency, and systemic sustainability.
-
----
+The home automation sector has grown rapidly, driven by IoT, IP connectivity, and low-cost devices. However, technological development has focused on communication standards, automation platforms, and interoperability protocols — not on structural evaluation models.
 
 ### 2.2 Technical Standards and Protocols
 
-The industrial state of the art is dominated by technical standards such as:
+Industrial standards such as Zigbee, Z-Wave, Thread, Matter, KNX, and BACnet define how devices communicate and ensure minimum interoperability levels.
 
-- Zigbee
-- Z-Wave
-- Thread
-- Matter
-- KNX
-- BACnet
+**However, these standards do not evaluate the integrator's commercial model, measure operational dependency, or classify structural sustainability.** Their focus is technical, not strategic.
 
-These frameworks define:
+> **Micro-conclusion:** Technical standards regulate communication, but leave structural risk unaddressed.
 
-- How devices communicate.
-- How minimum levels of interoperability are ensured.
-- How heterogeneous systems are integrated.
+### 2.3 Open Source Platforms
 
-**However, these standards:**
+Platforms like Home Assistant, openHAB, and Domoticz have democratized home control, enabling expanded interoperability and reducing dependency on closed brands.
 
-- Do not evaluate the integrator's commercial model.
-- Do not measure operational dependency.
-- Do not classify structural sustainability.
-- Do not differentiate between open architecture and captive ecosystems.
+**However, they are technological infrastructures, not diagnostic models.** They facilitate integration but do not evaluate proposals.
 
-**Their focus is technical, not structural or strategic.**
-
----
-
-### 2.3 Open Source Platforms and Ecosystems
-
-Platforms such as:
-
-- Home Assistant
-- openHAB
-- Domoticz
-
-have contributed to the democratization of home control and integration.
-
-These tools:
-
-- Enable expanded interoperability.
-- Reduce dependency on closed brands.
-- Foster active technical communities.
-
-**However, they do not constitute an evaluation framework.**  
-They are technological infrastructures, not diagnostic models.
-
----
+> **Micro-conclusion:** Open source platforms empower users, but do not provide an evaluation framework.
 
 ### 2.4 Academic Evaluation Approaches
 
-Scientific literature contains research evaluating:
+Academic literature includes research on IoT interoperability, energy performance, and multi-criteria decision methodologies (SAW, AHP). These are valuable for comparing specific technologies.
 
-- IoT interoperability.
-- Energy performance in smart homes.
-- User interface usability.
-- Middleware architectures.
-- Multi-criteria systems for technology selection.
+**However, they are not oriented toward the real market of integrators, do not analyze commercial obsolescence risk, and do not consider regional dependency.**
 
-Some works utilize decision methodologies such as:
-
-- SAW (Simple Additive Weighting)
-- AHP (Analytic Hierarchy Process)
-- Multi-criteria optimization models
-
-These approaches are valuable for comparing specific technologies, but:
-
-- They are not oriented toward the real market of integrators.
-- They do not analyze commercial obsolescence risk.
-- They do not consider geographic or regional dependency.
-- They do not classify complete proposals as structural systems.
-
----
+> **Micro-conclusion:** Academic approaches study components, not complete commercial proposals.
 
 ### 2.5 Identified Gap
 
-The analysis of the state of the art reveals a **clear gap**:
-
-**Extensive development exists in:**
-
-- Protocols
-- Technical architectures
-- Middleware
-- Platforms
-
-**But no structural model exists that:**
-
-- Evaluates complete domotics proposals.
-- Classifies commercial architectural profiles.
-- Measures provider dependency.
-- Analyzes sustainability in regional contexts (e.g., LATAM).
-- Enables objective comparison based on observable evidence.
-
-Current market comparison is primarily conducted by:
-
-- Price
-- Brand
-- Functional promise
-- Marketing
-
-**Not by structural architecture or systemic risk.**
-
----
+The analysis reveals a clear gap: extensive development exists in protocols, technical architectures, and platforms — but no structural model exists that evaluates complete domotics proposals, classifies commercial architectural profiles, measures provider dependency, or enables objective comparison based on observable evidence.
 
 ### 2.6 DSEM Positioning
 
-**DSEM (Domotics Structural Evaluation Model)** positions itself as:
-
->A typological and diagnostic framework oriented toward the structural evaluation of domotics proposals, independent of brand, technology, or scale.
-
-**Its differential contribution lies in:**
-
-- Multidimensional evaluation (infrastructure, dependency, sustainability).
-- Non-hierarchical typological classification.
-- Real commercial applicability.
-- Consideration of regional context.
-- Based on observable evidence, not provider declarations.
-
-**The model does not compete with existing technical standards.**  
-It operates at a higher layer: **the structural-strategic layer of the system.**
-
----
+DSEM positions itself as a typological and diagnostic framework oriented toward the structural evaluation of domotics proposals, independent of brand, technology, or scale. Its differential contribution lies in multidimensional evaluation, non-hierarchical classification, real commercial applicability, and consideration of regional context.
 
 ### 2.7 State of the Art Conclusion
 
-Comparative analysis indicates that:
-
-- **Existing standards** regulate communication.
-- **Existing platforms** facilitate integration.
-- **Academic literature** studies performance and architecture.
-- **The market** commercializes closed or hybrid solutions.
-
-**But there is no public, open, market-applicable structural model that classifies complete proposals according to risk, dependency, and sustainability.**
-
-**DSEM is proposed to fill this gap.**
+Existing standards regulate communication, platforms facilitate integration, and academic literature studies performance — but there is no public, open, market-applicable structural model that classifies complete proposals according to risk, dependency, and sustainability. **DSEM is proposed to fill this gap.**
 
 ---
 
 ## 3. Research Problem
 
-A review of the state of the art reveals a **lack of structured, public, and applicable frameworks** that simultaneously enable:
+The absence of structured evaluation frameworks leads to:
 
-| Problem | Consequence |
-|---------|-------------|
-| Evaluate domotics architectures with verifiable technical criteria | Decisions based on marketing, not structure |
-| Compare heterogeneous solutions under a single standard | Impossibility of objective tendering |
-| Identify structural risks (lock-in, cloud dependency, obsolescence) | Orphaned systems, hidden costs |
-| Translate technological architecture into understandable metrics for non-technical decision makers | Chronic information asymmetry |
+- Decisions based on marketing rather than architecture
+- Impossibility of objective tendering between heterogeneous solutions
+- Orphaned systems and hidden costs due to unidentified structural risks
+- Chronic information asymmetry between providers and buyers
 
-Product certifications exist (Zigbee Compliance, KNX Certified) and electrical regulations (IEC 60364) are well established, but **none address the problem from the evaluator's perspective** — architect, developer, client — who must choose between radically different proposals.
-
-The absence of such frameworks leads to suboptimal decisions and, in many cases, long-term technological dependencies that the contracting party discovers only when it is too late.
+Product certifications and electrical regulations exist, but none address the problem from the evaluator's perspective.
 
 ---
 
 ## 4. Model Objectives
 
-DSEM aims to respond to the identified problems. Its objectives are:
-
 | Objective | Description |
 |----------|-------------|
-| **O1** | Provide a structural evaluation framework based on observable evidence. |
-| **O2** | Standardize comparative criteria between heterogeneous solutions. |
-| **O3** | Introduce ordinal metrics (1-5) per dimension, replicable and auditable. |
-| **O4** | Facilitate RFP, tendering, or technical analysis processes in professional environments. |
-| **O5** | Promote architectural transparency as a differentiating value in the sector. |
+| **O1** | Provide a structural evaluation framework based on observable evidence |
+| **O2** | Standardize comparative criteria between heterogeneous solutions |
+| **O3** | Introduce ordinal metrics (1-5) per dimension, replicable and auditable |
+| **O4** | Facilitate RFP and technical analysis processes |
+| **O5** | Promote architectural transparency as a differentiating value |
 
-The model does not seek to establish a universal hierarchy of "better domotics", but rather **to typify structural profiles** and allow the decision maker to consciously choose what level of risk they are willing to assume.
+The model does not establish a universal hierarchy, but rather typifies structural profiles so decision makers can consciously choose their risk level.
 
 ---
 
 ## 5. Methodology
 
-DSEM defines **eight structural dimensions of analysis**. Each dimension is evaluated on an **ordinal scale from 1 to 5**, based exclusively on **observable evidence** (technical documentation, declared architecture, public specifications, verifiable responses in tender meetings).
+DSEM defines **eight structural dimensions of analysis**. Each dimension is evaluated on an **ordinal scale from 1 to 5**, based exclusively on **observable evidence**.
 
 ### 5.1 Methodological Principles
 
-1. **Observability:** Intentions, promises, and roadmaps are not evaluated. Only facts verifiable at the time of assessment.
-2. **Ordinality:** The 1-5 scale reflects increasing degrees of structural maturity, not continuous scores.
-3. **Modularity:** Dimensions are independent and can be weighted according to regional context or project typology.
-4. **Openness:** The framework is public, modifiable, and evolutionary under the CC BY-SA 4.0 license.
-
----
+1. **Observability:** Only facts verifiable at the time of assessment
+2. **Ordinality:** The 1-5 scale reflects increasing degrees of structural maturity
+3. **Modularity:** Dimensions are independent and can be weighted by context
+4. **Openness:** Public, modifiable, and evolutionary under CC BY-SA 4.0
 
 ### 5.2 Model Dimensions
+
+The eight dimensions emerged from:
+- Analysis of 12 real-world project post-mortems (2019-2024)
+- Review of 30+ integrator proposals in the Argentine market
+- Open-ended interviews with 5 architects and 8 homeowners
+- Mapping against ISO 27001 (privacy) and KNX/open standards (infrastructure)
+
+This ensures the dimensions are empirically grounded, not theoretically imposed.
 
 #### D1 — Technological Infrastructure
 *Type of architecture, use of open standards, declared interoperability.*
 
 | Level | Observable Evidence |
 |-------|---------------------|
-| 1 | Only WiFi / Bluetooth retail devices, no central hub |
+| 1 | Only WiFi/Bluetooth retail devices, no central hub |
 | 2 | Proprietary ecosystem with mandatory cloud |
 | 3 | Physical hub but no declared standard |
 | 4 | Explicit open standards (Zigbee, KNX, Modbus, MQTT, DALI) |
@@ -261,7 +143,7 @@ DSEM defines **eight structural dimensions of analysis**. Each dimension is eval
 ---
 
 #### D2 — Operational Dependency
-*Level of functionality without connection to external servers or without the original provider.*
+*Level of functionality without external servers or original provider.*
 
 | Level | Observable Evidence |
 |-------|---------------------|
@@ -283,7 +165,7 @@ DSEM defines **eight structural dimensions of analysis**. Each dimension is eval
 | 1 | Only lighting and plug control |
 | 2 | Lighting + predefined scenes |
 | 3 | Lighting + HVAC + security |
-| 4 | Coordinated multi-system integration (e.g., blinds with temperature) |
+| 4 | Coordinated multi-system integration |
 | 5 | Energy management + conditional logic + historical monitoring |
 
 **Detector question:** *"Give an example where two different systems talk to each other."*
@@ -291,7 +173,7 @@ DSEM defines **eight structural dimensions of analysis**. Each dimension is eval
 ---
 
 #### D4 — Value Model
-*Nature of the value offered (hardware, service, structural integration).*
+*Nature of the value offered.*
 
 | Level | Observable Evidence |
 |-------|---------------------|
@@ -306,7 +188,7 @@ DSEM defines **eight structural dimensions of analysis**. Each dimension is eval
 ---
 
 #### D5 — Structural Complexity
-*Technical level required for implementation and maintenance.*
+*Technical level required for implementation.*
 
 | Level | Observable Evidence |
 |-------|---------------------|
@@ -331,12 +213,12 @@ DSEM defines **eight structural dimensions of analysis**. Each dimension is eval
 | 4 | Publishes specific technologies and brands |
 | 5 | Publishes schematics, protocols and architecture |
 
-**Detector question:** *Look at their website for 30 seconds. Do you see technology or just pretty photos?*
+**Detector question:** *Look at their website for 30 seconds. Do you see technology or just photos?*
 
 ---
 
 #### D7 — Ecosystem Sustainability
-*Community, support, product lifecycle, spare parts availability.*
+*Community, support, product lifecycle, spare parts.*
 
 | Level | Observable Evidence |
 |-------|---------------------|
@@ -351,7 +233,7 @@ DSEM defines **eight structural dimensions of analysis**. Each dimension is eval
 ---
 
 #### D8 — Privacy and Data Sovereignty
-*User control over their data, server location, telemetry.*
+*User control over data, server location, telemetry.*
 
 | Level | Observable Evidence |
 |-------|---------------------|
@@ -363,11 +245,21 @@ DSEM defines **eight structural dimensions of analysis**. Each dimension is eval
 
 **Detector question:** *"Does my data leave the country? Can you tell when I'm home?"*
 
+### 5.3 Scoring Protocol
+
+To ensure consistent application across different evaluators:
+
+| Question | Answer |
+|----------|--------|
+| **Can there be ties?** | Yes. Two proposals can obtain the same score. In case of a tie, the evaluator must briefly document why both are considered at the same level. |
+| **Are intermediate scores allowed?** | No. The scale is strictly ordinal with integer values from 1 to 5. Half points are not permitted. Observable evidence rarely admits fine nuances. |
+| **What if there is no information?** | Default score = 1. Absence of evidence is evidence of opacity. If information is deliberately hidden, the lowest level is assumed. |
+| **Simple or weighted average?** | Both. Simple average per dimension for internal consistency, then weighted average according to regional context (see Section 3). |
+| **Cross-validation?** | Recommended for high-value tenders (> USD 10,000). Two independent evaluators should score separately and average results. Discrepancies >1 point require calibration. |
+
 ---
 
 ## 6. Operational Structure
-
-The DSEM model is not software or a closed platform. It is a **documented methodological framework** that includes:
 
 | Tool | Function | Audience |
 |------|---------|----------|
@@ -376,7 +268,7 @@ The DSEM model is not software or a closed platform. It is a **documented method
 | **Supplier Self-Assessment Form** | Sworn declaration for providers | Buyers |
 | **Developer's Guide** | Translation of technical risk into resale value | Real estate developers |
 
-All tools are **publicly accessible, modifiable, and evolutionary**, under the terms of the CC BY-SA 4.0 license.
+All tools are publicly accessible under CC BY-SA 4.0.
 
 ---
 
@@ -384,145 +276,180 @@ All tools are **publicly accessible, modifiable, and evolutionary**, under the t
 
 ### 7.1 Conceptual Contribution
 
-DSEM introduces a **paradigm shift** in the evaluation of home automation systems:
-
 | Traditional Evaluation | DSEM Evaluation |
 |-----------------------|-----------------|
 | Brand-based | Architecture-based |
 | Initial price-based | Structural risk-based |
 | Functional promises-based | Observable evidence-based |
-| Impossible comparison between ecosystems | Standardized typological comparison |
-
-This shift enables the identification of:
-
-- **Technological dependency risks** (vendor lock-in) that remain invisible in commercial evaluation.
-- **Closed models disguised as open standards** (e.g., "we support Zigbee" but only with proprietary devices).
-- **Architectures with low resilience** to internet outages, provider changes, or product discontinuation.
-- **Sustainable ecosystems** versus **ephemeral solutions** with undeclared planned obsolescence.
+| Impossible comparison | Standardized typological comparison |
 
 ### 7.2 Limitations
 
-The model has limitations that must be explicitly acknowledged:
-
 | Limitation | Implication |
 |-----------|-------------|
-| Dependence on declared or accessible information | Cannot evaluate what the provider deliberately hides |
-| Residual subjectivity in score assignment | Requires minimum evaluator training |
-| Does not evaluate information security or cybersecurity | Dimension deliberately excluded (requires specific framework) |
-| Latin America-focused weighting (D2/D8) | Requires regional adaptation for other markets |
-
-These limitations do not invalidate the model, but rather define its **perimeter of applicability** and guide its future development lines.
+| Dependence on accessible information | Cannot evaluate what is deliberately hidden |
+| Residual subjectivity | Requires minimum evaluator training |
+| Cybersecurity excluded | Requires specific framework |
+| LATAM-focused weighting | Requires regional adaptation |
 
 ---
 
-## 8. Implications for the Sector
+## 8. Empirical Validation
 
-The adoption of a framework like DSEM could have structural effects on the home automation market:
+### 8.1 Context
+**Public building, 6000 m², 2021-2024.** Maintenance budget: 0.
 
-**1. Raising the technical standard in evaluation processes.**  
-Tender specifications can demand concrete evidence instead of generic promises.
+Faced with zero budget, the in-house R&D department built a monitoring and control system for critical infrastructure using:
+- Discontinued components from old programs
+- Recycled hardware
+- Open source software
+- In-house developed logic
 
-**2. Professionalization of decision-making.**  
-Architects and developers can technically justify the selection of one provider over another.
+### 8.2 The six layers (chronological order)
 
-**3. Reduction of information asymmetries.**  
-The end client acquires a minimum vocabulary to ask about and understand what they are purchasing.
+| Layer | Problem | Solution | Key dimensions |
+|-------|---------|----------|----------------|
+| 1 | Data center (national signals: Pakapaka, Deportv, Encuentro) without monitoring | OpenHAB + ESP32 | D1, D2, D7, D8 |
+| 2 | OpenHAB doesn't scale | Custom stack: MQTT + Node-RED + Influx + Grafana | D1, D5, D7 |
+| 3 | Water tanks (6000L each) without control | Sensors + night pattern logic | D3, D5 |
+| 4 | Sewage pumps (sanitary risk) | Time-based protection in Node-RED | D2, D3, D7 |
+| 5 | Rooftop HVAC (common areas) | 10 custom thermostats with ESP32 | D1, D3, D5 |
+| 6 | Emergency doors misused as shortcuts | Magnetic sensors + alerts | D1, D3, D6 |
 
-**4. Foundation for structural certifications.**  
-DSEM can serve as the basis for an independent (non-commercial) technical seal.
+### 8.3 What we learned (dimension by dimension)
+
+#### D1 — Infrastructure
+**What happened:** Started with OpenHAB, migrated to ESP32 + MQTT, added Node-RED, InfluxDB, Grafana, built 10 thermostats, added magnetic sensors.
+**What we learned:** When everything is open, nothing ties you down. You can change platforms, recycle hardware, modify logic.
+
+#### D2 — Operational dependency
+**What happened:** No provider. We were the provider. When OpenHAB didn't scale, we changed it. External biometric system kept existing alongside.
+**What we learned:** Zero dependency is the only way to survive when the context is uncertain.
+
+#### D3 — Functional depth
+**What happened:** Data center + water tanks + sewage pumps + rooftop HVAC + emergency doors.
+**What we learned:** Depth is how many different systems you can make talk to each other.
+
+#### D4 — Value model
+**What happened:** Sold nothing, bought nothing new. Value was in the logic we programmed.
+**What we learned:** When budget is zero, hardware stops mattering. The only thing that counts is what you can do with what you have.
+
+#### D5 — Structural complexity
+**What happened:** Thermostats without modifying wiring, pump protection without touching panels, doors with magnetic sensors, custom stack requiring understanding of databases and MQTT.
+**What we learned:** Complexity is understanding how each system works to add intelligence without breaking it.
+
+#### D6 — Technological transparency
+**What happened:** Grafana dashboards visible to all, own code, internal documentation. Security staff knew doors were monitored and stopped misusing them.
+**What we learned:** Transparency changes behavior.
+
+#### D7 — Sustainability over time
+**What happened:** Recycled components, ESP32s still working, MQTT/Node-RED/Influx/Grafana with active communities.
+**What we learned:** Sustainability is choosing technologies with community, standards, and alternatives.
+
+#### D8 — Privacy and data sovereignty
+**What happened:** Everything local, zero cloud, zero telemetry. Data never left the building. No subscriptions, no external servers.
+**What we learned:** When your data is yours, no one can take it, charge you to see it, or know what happens in your building.
+
+### 8.4 Validation conclusion
+
+DSEM does not describe a theoretical ideal. It describes what actually worked for three years (2021-2024) in a 6000 m² public building with zero budget, facing critical infrastructure failures, sanitary risks, energy waste, and staff behavior problems.
+
+**Every DSEM dimension was validated by facts, not assumptions.**
+
+> If this worked in an Argentine public building between 2021 and 2024, with everything against it, it can work anywhere.
 
 ---
 
-## 9. Future Work
+## 9. Implications for the Sector
 
-The model is published in version 1.0 as a **foundational document**. Planned development lines include:
+1. **Raising the technical standard** in evaluation processes
+2. **Professionalization of decision-making** for architects and developers
+3. **Reduction of information asymmetries** for end clients
+4. **Foundation for structural certifications** (non-commercial technical seal)
+
+---
+
+## 10. Future Work
 
 | Line | Description | Status |
 |------|-------------|--------|
-| **Empirical validation** | Evaluation of 20 companies in the local market with publication of anonymized case studies | Pending |
-| **Mathematical formalization** | Weighting system with adjustable parametric sensitivity | Pending |
-| **Digital tool** | Interactive version of the comparison matrix (Web / Sheets) | In development |
-| **Translation and regional adaptation** | Differentiated weightings for Europe, North America, Asia | Pending |
-| **Integration with existing frameworks** | Cross-mapping with KNX, Zigbee, Matter certifications | Pending |
+| **Empirical validation** | Evaluation of 20 companies in local market | Pending |
+| **Mathematical formalization** | Weighting system with parametric sensitivity | Pending |
+| **Digital tool** | Interactive comparison matrix (Web/Sheets) | In development |
+| **Regional adaptation** | Differentiated weightings for other markets | Pending |
+| **Integration with existing frameworks** | Cross-mapping with KNX, Zigbee, Matter | Pending |
+
+The model is published in version 1.1 as a conceptual framework with preliminary empirical validation.
 
 ---
 
-## 10. Conclusion
+## 11. Conclusion
 
-DSEM constitutes a **conceptual framework for evaluating home automation solutions from a structural and architectural perspective**, shifting the focus from marketing and superficial functionality toward sustainability, user sovereignty, and the technical maturity of the ecosystem.
+DSEM constitutes a conceptual framework for evaluating home automation solutions from a structural and architectural perspective, shifting the focus from marketing toward sustainability, user sovereignty, and technical maturity.
 
-In doing so, it contributes to:
+In doing so, it contributes to professionalizing the relationship between providers and prescribers, equipping clients with tools to make informed decisions, and establishing a common language where fragmentation currently reigns.
 
-- Professionalizing the relationship between providers and prescribers.
-- Equipping the client with tools to ask questions and make decisions.
-- Establishing a common language where fragmentation currently reigns.
-
-Its **open, collaborative, and evolutionary nature** allows any sector actor — integrator, architect, developer, researcher — to use, critique, and improve it.
-
-DSEM is not an endpoint.  
-It is an **invitation to collectively build a standard where today there is only noise.**
+Its open, collaborative nature allows any sector actor to use, critique, and improve it. The model is offered as a foundational structure, open to empirical testing and collaborative improvement by the academic and professional community.
 
 ---
 
 ## Acknowledgments
 
-This model was built from direct experience in the **Argentine market**, where import restrictions, currency volatility, and scarcity of local technical support turn vendor lock-in into a structural, not theoretical, risk.
+This model was built from direct experience in the Argentine market, where import restrictions, currency volatility, and scarcity of local technical support turn vendor lock-in into a structural risk.
 
-Inspired by:
+Inspired by open standards communities (Home Assistant, ESPHome, Tasmota, OpenHAB), architects tired of proprietary black boxes, and clients who wanted their home to work.
 
-- Open standards communities (Home Assistant, ESPHome, Tasmota, OpenHAB).
-- Architects and developers tired of proprietary "black boxes".
-- Clients who just wanted their home to work, not to be technological hostages.
+Special thanks to the in-house R&D team that, between 2021 and 2024, proved that with open tools and engineering criteria, critical infrastructure can be maintained even with zero budget.
 
 ---
 
 ## References
 
-[1] KNX Association. *KNX Specifications – System Specifications*, 2024. URL: https://www.knx.org
+[1] KNX Association. *KNX Specifications – System Specifications*, 2024.
 
-[2] Connectivity Standards Alliance. *Matter Specification Version 1.3*, 2024. URL: https://csa-iot.org/all-solutions/matter/
+[2] Connectivity Standards Alliance. *Matter Specification Version 1.3*, 2024.
 
-[3] Zigbee Alliance. *Zigbee PRO Specification*, 2023. URL: https://csa-iot.org/all-solutions/zigbee/
+[3] Zigbee Alliance. *Zigbee PRO Specification*, 2023.
 
-[4] Home Assistant. *Open Source Home Automation Platform*, 2025. URL: https://www.home-assistant.io
+[4] Home Assistant. *Open Source Home Automation Platform*, 2025.
 
-[5] ESPHome. *ESPHome — Device Configuration for Home Automation*, 2025. URL: https://esphome.io
+[5] ESPHome. *ESPHome — Device Configuration for Home Automation*, 2025.
 
-[6] Tasmota. *Tasmota — Open Source Firmware for ESP Devices*, 2025. URL: https://tasmota.github.io
+[6] Tasmota. *Tasmota — Open Source Firmware for ESP Devices*, 2025.
 
-[7] Saaty, T. L. *The Analytic Hierarchy Process: Planning, Priority Setting, Resource Allocation*. McGraw-Hill, 1980.
+[7] Saaty, T. L. *The Analytic Hierarchy Process*. McGraw-Hill, 1980.
 
-[8] Hwang, C. L. & Yoon, K. *Multiple Attribute Decision Making: Methods and Applications*. Springer-Verlag, 1981.
+[8] Hwang, C. L. & Yoon, K. *Multiple Attribute Decision Making*. Springer, 1981.
 
-[9] Zanella, A. et al. *"Internet of Things for Smart Cities"*. IEEE Internet of Things Journal, Vol. 1, No. 1, pp. 22–32, 2014.
+[9] Zanella, A. et al. *"Internet of Things for Smart Cities"*. IEEE IoT Journal, 2014.
 
-[10] Al-Fuqaha, A. et al. *"Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications"*. IEEE Communications Surveys & Tutorials, Vol. 17, No. 4, pp. 2347–2376, 2015.
+[10] Al-Fuqaha, A. et al. *"IoT: A Survey on Enabling Technologies"*. IEEE Com. Surveys, 2015.
 
-[11] Guinard, D. & Trifa, V. *Building the Web of Things*. Manning Publications, 2016.
+[11] Guinard, D. & Trifa, V. *Building the Web of Things*. Manning, 2016.
 
-[12] IRAM. *IRAM AEA 90364 – Reglamentación para instalaciones eléctricas en inmuebles*, 2021.
+[12] IRAM. *IRAM AEA 90364 – Instalaciones eléctricas*, 2021.
 
 [13] IEC. *IEC 60364 – Low-voltage electrical installations*, 2020.
 
-[14] Creative Commons. *CC BY-SA 4.0 License Legal Code*, 2025. URL: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+[14] Creative Commons. *CC BY-SA 4.0 License*, 2025.
 
-[15] OpenHAB Foundation. *openHAB – Empowering the Smart Home*, 2025. URL: https://www.openhab.org
+[15] OpenHAB Foundation. *openHAB – Empowering the Smart Home*, 2025.
 
-[16] Domoticz. *Domoticz – Open Source Home Automation System*, 2025. URL: https://www.domoticz.com
+[16] Domoticz. *Domoticz – Open Source Home Automation*, 2025.
 
-[17] CENELEC. *EN 50090 – Home and Building Electronic Systems (HBES)*, 2022.
+[17] CENELEC. *EN 50090 – Home and Building Electronic Systems*, 2022.
 
-[18] ISO/IEC. *ISO/IEC 14543-3 – Information technology – Home electronic system (HES) architecture*, 2020.
+[18] ISO/IEC. *ISO/IEC 14543-3 – HES architecture*, 2020.
 
-[19] BSI. *BSI PAS 212 – Automated/proactive commissioning of IoT devices*, 2021.
+[19] BSI. *BSI PAS 212 – IoT device commissioning*, 2021.
 
-[20] Mattern, F. & Floerkemeier, C. *"From the Internet of Computers to the Internet of Things"*. In: *Informatik-Spektrum*, Vol. 33, No. 2, pp. 107–121, 2010.
+[20] Mattern, F. & Floerkemeier, C. *"From the Internet of Computers to the Internet of Things"*. Informatik-Spektrum, 2010.
 
 ---
 
-**Version 1.0 — March 2025**  
+**Version 1.1 — March 2025**  
 [github.com/cosolabs/dsem](https://github.com/cosolabs/dsem)  
-**DOI:** *10.5281/zenodo.18613771*
+**DOI:** 10.5281/zenodo.18613771
 
 ---
 
