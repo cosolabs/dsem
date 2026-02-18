@@ -309,7 +309,7 @@ Faced with zero budget, the in-house R&D department built a monitoring and contr
 
 | Layer | Problem | Solution | Key dimensions |
 |-------|---------|----------|----------------|
-| 1 | Data center (national signals: Pakapaka, Deportv, Encuentro) without monitoring | OpenHAB + ESP32 | D1, D2, D7, D8 |
+| 1 | Data center national signals without monitoring | OpenHAB + ESP32 | D1, D2, D7, D8 |
 | 2 | OpenHAB doesn't scale | Custom stack: MQTT + Node-RED + Influx + Grafana | D1, D5, D7 |
 | 3 | Water tanks (6000L each) without control | Sensors + night pattern logic | D3, D5 |
 | 4 | Sewage pumps (sanitary risk) | Time-based protection in Node-RED | D2, D3, D7 |
